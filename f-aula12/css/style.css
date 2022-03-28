@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    --cor-amarelo: #F0A83E;
+    --cor-marrom: #3C2313;
+    --cor-branco: #ffffff;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 0;
+    height: 100px;
+    width: 100%;
+    background-color: var(--cor-amarelo);
+    display: flex;
+    color: var(--cor-branco);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barra-oferta {
+    background-color: black;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    top: 0px;
+    display: inline-block; 
+    vertical-align: top;
+    text-align: left;
+    font-size: 11px;
+    flex: auto;
+}
+
+#oferta {
+    text-decoration: none;
+    font-style: normal;
+    color: var(--cor-branco);
+    position: absolute;
+    height: 12px;
+    left: 70px;
+    top: 4px;
+}
+
+.container-navegação {
+    position: absolute;
+}
+
+.logo {
+    width: 90px;
+    height: 19px;
+    top: 39px;
+    left: 107px;
+    
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-right: 50px;
+}
+
+li a {
+    text-decoration: none;
+    color: var(--cor-branco);
+    list-style-type: none;
+}
+
+nav {
+    padding: 20px;
+}
+
+main {
+    background-color: var(--cor-branco);
+    padding: 20px;
+    display: flex;
+}
+
+.span { 
+
+}
